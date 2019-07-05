@@ -7,9 +7,10 @@
 package gconv
 
 import (
-	"github.com/gogf/gf/g/os/gtime"
-	"github.com/gogf/gf/g/text/gstr"
 	"time"
+
+	"github.com/gf/g/os/gtime"
+	"github.com/gf/g/text/gstr"
 )
 
 // Time converts <i> to time.Time.

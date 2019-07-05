@@ -1,15 +1,16 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 // 默认错误日志封装.
 
 package ghttp
 
 import (
 	"fmt"
-	"github.com/gogf/gf/g/os/gtime"
+
+	"github.com/gf/g/os/gtime"
 )
 
 // 处理服务错误信息，主要是panic，http请求的status由access log进行管理

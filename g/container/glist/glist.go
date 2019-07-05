@@ -10,7 +10,8 @@ package glist
 
 import (
 	"container/list"
-	"github.com/gogf/gf/g/internal/rwmutex"
+
+	"github.com/gf/g/internal/rwmutex"
 )
 
 type (

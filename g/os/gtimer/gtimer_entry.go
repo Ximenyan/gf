@@ -7,8 +7,9 @@
 package gtimer
 
 import (
-	"github.com/gogf/gf/g/container/gtype"
 	"time"
+
+	"github.com/gf/g/container/gtype"
 )
 
 // 循环任务项

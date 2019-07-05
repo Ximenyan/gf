@@ -8,10 +8,11 @@
 package gvar
 
 import (
-	"github.com/gogf/gf/g/container/gtype"
-	"github.com/gogf/gf/g/os/gtime"
-	"github.com/gogf/gf/g/util/gconv"
 	"time"
+
+	"github.com/gf/g/container/gtype"
+	"github.com/gf/g/os/gtime"
+	"github.com/gf/g/util/gconv"
 )
 
 // Var is an universal variable type.

@@ -7,8 +7,9 @@
 package gtimer
 
 import (
-	"github.com/gogf/gf/g/container/glist"
 	"time"
+
+	"github.com/gf/g/container/glist"
 )
 
 // 开始循环

@@ -7,9 +7,10 @@
 package gtimer
 
 import (
-	"github.com/gogf/gf/g/container/glist"
-	"github.com/gogf/gf/g/container/gtype"
 	"time"
+
+	"github.com/gf/g/container/glist"
+	"github.com/gf/g/container/gtype"
 )
 
 // 定时器/分层时间轮

@@ -1,21 +1,22 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 package ghttp
 
 import (
 	"fmt"
-	"github.com/gogf/gf/g/container/gvar"
-	"github.com/gogf/gf/g/encoding/gjson"
-	"github.com/gogf/gf/g/os/gtime"
-	"github.com/gogf/gf/g/text/gregex"
-	"github.com/gogf/gf/third/github.com/fatih/structs"
 	"io/ioutil"
 	"net/http"
 	"strings"
+
+	"github.com/gf/g/container/gvar"
+	"github.com/gf/g/encoding/gjson"
+	"github.com/gf/g/os/gtime"
+	"github.com/gf/g/text/gregex"
+	"github.com/gf/third/github.com/fatih/structs"
 )
 
 // 请求对象

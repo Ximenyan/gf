@@ -1,13 +1,13 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 package ghttp
 
 import (
-	"github.com/gogf/gf/g/os/glog"
+	"github.com/gf/g/os/glog"
 )
 
 // 设置日志目录，只有在设置了日志目录的情况下才会输出日志到日志文件中。

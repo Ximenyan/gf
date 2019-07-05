@@ -7,10 +7,11 @@
 package gconv
 
 import (
-	"github.com/gogf/gf/g/internal/empty"
-	"github.com/gogf/gf/g/text/gstr"
 	"reflect"
 	"strings"
+
+	"github.com/gf/g/internal/empty"
+	"github.com/gf/g/text/gstr"
 )
 
 const (

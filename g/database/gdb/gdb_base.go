@@ -1,8 +1,8 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 //
 
 package gdb
@@ -11,13 +11,14 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/g/container/gvar"
-	"github.com/gogf/gf/g/os/gcache"
-	"github.com/gogf/gf/g/os/gtime"
-	"github.com/gogf/gf/g/text/gregex"
-	"github.com/gogf/gf/g/util/gconv"
 	"reflect"
 	"strings"
+
+	"github.com/gf/g/container/gvar"
+	"github.com/gf/g/os/gcache"
+	"github.com/gf/g/os/gtime"
+	"github.com/gf/g/text/gregex"
+	"github.com/gf/g/util/gconv"
 )
 
 const (

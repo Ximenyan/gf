@@ -1,14 +1,14 @@
-// Copyright 2019 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2019 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 //
 
 package ghttp
 
 import (
-	"github.com/gogf/gf/g/util/gconv"
+	"github.com/gf/g/util/gconv"
 )
 
 // See https://www.w3.org/TR/cors/ .

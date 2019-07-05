@@ -8,10 +8,11 @@
 package cmdenv
 
 import (
-	"github.com/gogf/gf/g/container/gvar"
 	"os"
 	"regexp"
 	"strings"
+
+	"github.com/gf/g/container/gvar"
 )
 
 var (

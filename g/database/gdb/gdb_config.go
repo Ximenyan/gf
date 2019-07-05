@@ -1,16 +1,17 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 // 对常用关系数据库的封装管理包
 
 package gdb
 
 import (
 	"fmt"
-	"github.com/gogf/gf/g/container/gring"
 	"sync"
+
+	"github.com/gf/g/container/gring"
 )
 
 const (

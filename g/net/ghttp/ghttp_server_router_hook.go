@@ -1,8 +1,8 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 // 事件回调(中间件)路由控制.
 
 package ghttp
@@ -10,11 +10,12 @@ package ghttp
 import (
 	"container/list"
 	"fmt"
-	"github.com/gogf/gf/g/container/gset"
-	"github.com/gogf/gf/g/text/gregex"
 	"reflect"
 	"runtime"
 	"strings"
+
+	"github.com/gf/g/container/gset"
+	"github.com/gf/g/text/gregex"
 )
 
 // 绑定指定的hook回调函数, pattern参数同BindHandler，支持命名路由；hook参数的值由ghttp server设定，参数不区分大小写

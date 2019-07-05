@@ -1,8 +1,8 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 // Package gjson provides convenient API for JSON/XML/YAML/TOML data handling.
 package gjson
@@ -12,14 +12,15 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/g/encoding/gtoml"
-	"github.com/gogf/gf/g/encoding/gxml"
-	"github.com/gogf/gf/g/encoding/gyaml"
-	"github.com/gogf/gf/g/internal/rwmutex"
-	"github.com/gogf/gf/g/os/gfcache"
-	"github.com/gogf/gf/g/text/gregex"
-	"github.com/gogf/gf/g/util/gconv"
 	"reflect"
+
+	"github.com/gf/g/encoding/gtoml"
+	"github.com/gf/g/encoding/gxml"
+	"github.com/gf/g/encoding/gyaml"
+	"github.com/gf/g/internal/rwmutex"
+	"github.com/gf/g/os/gfcache"
+	"github.com/gf/g/text/gregex"
+	"github.com/gf/g/util/gconv"
 )
 
 // New creates a Json object with any variable type of <data>,

@@ -1,17 +1,18 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 // "不要通过共享内存来通信，而应该通过通信来共享内存"
 
 package gproc
 
 import (
-	"github.com/gogf/gf/g/container/gmap"
-	"github.com/gogf/gf/g/os/gfile"
-	"github.com/gogf/gf/g/util/gconv"
 	"os"
+
+	"github.com/gf/g/container/gmap"
+	"github.com/gf/g/os/gfile"
+	"github.com/gf/g/util/gconv"
 )
 
 // 进程通信数据结构

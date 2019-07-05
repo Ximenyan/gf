@@ -1,8 +1,8 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 package gproc
 
@@ -11,11 +11,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/g/net/gtcp"
-	"github.com/gogf/gf/g/os/gfcache"
-	"github.com/gogf/gf/g/util/gconv"
 	"io"
 	"time"
+
+	"github.com/gf/g/net/gtcp"
+	"github.com/gf/g/os/gfcache"
+	"github.com/gf/g/util/gconv"
 )
 
 const (

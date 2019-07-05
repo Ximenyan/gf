@@ -10,12 +10,13 @@ package gstr
 import (
 	"bytes"
 	"fmt"
-	"github.com/gogf/gf/g/util/grand"
 	"math"
 	"strconv"
 	"strings"
 	"unicode"
 	"unicode/utf8"
+
+	"github.com/gf/g/util/grand"
 )
 
 // Replace returns a copy of the string <origin>

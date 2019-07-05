@@ -1,4 +1,4 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
@@ -7,9 +7,10 @@
 package gparser
 
 import (
-	"github.com/gogf/gf/g/container/gvar"
-	"github.com/gogf/gf/g/os/gtime"
 	"time"
+
+	"github.com/gf/g/container/gvar"
+	"github.com/gf/g/os/gtime"
 )
 
 // Val returns the value.

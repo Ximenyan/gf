@@ -1,21 +1,22 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 package ghttp
 
 import (
 	"fmt"
-	"github.com/gogf/gf/g/encoding/ghtml"
-	"github.com/gogf/gf/g/os/gspath"
-	"github.com/gogf/gf/g/os/gtime"
 	"net/http"
 	"os"
 	"reflect"
 	"sort"
 	"strings"
+
+	"github.com/gf/g/encoding/ghtml"
+	"github.com/gf/g/os/gspath"
+	"github.com/gf/g/os/gtime"
 )
 
 // 默认HTTP Server处理入口，http包底层默认使用了gorutine异步处理请求，所以这里不再异步执行

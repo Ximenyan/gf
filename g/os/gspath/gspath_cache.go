@@ -1,8 +1,8 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 // Package gspath implements file index and search for folders.
 //
@@ -10,11 +10,12 @@
 package gspath
 
 import (
-	"github.com/gogf/gf/g/os/gfile"
-	"github.com/gogf/gf/g/os/gfsnotify"
-	"github.com/gogf/gf/g/text/gstr"
 	"runtime"
 	"strings"
+
+	"github.com/gf/g/os/gfile"
+	"github.com/gf/g/os/gfsnotify"
+	"github.com/gf/g/text/gstr"
 )
 
 // 递归添加目录下的文件

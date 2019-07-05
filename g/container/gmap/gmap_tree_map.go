@@ -1,13 +1,13 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with gm file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 package gmap
 
 import (
-	"github.com/gogf/gf/g/container/gtree"
+	"github.com/gf/g/container/gtree"
 )
 
 // Map based on red-black tree, alias of RedBlackTree.

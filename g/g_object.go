@@ -1,20 +1,20 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 package g
 
 import (
-	"github.com/gogf/gf/g/database/gdb"
-	"github.com/gogf/gf/g/database/gredis"
-	"github.com/gogf/gf/g/frame/gins"
-	"github.com/gogf/gf/g/net/ghttp"
-	"github.com/gogf/gf/g/net/gtcp"
-	"github.com/gogf/gf/g/net/gudp"
-	"github.com/gogf/gf/g/os/gcfg"
-	"github.com/gogf/gf/g/os/gview"
+	"github.com/gf/g/database/gdb"
+	"github.com/gf/g/database/gredis"
+	"github.com/gf/g/frame/gins"
+	"github.com/gf/g/net/ghttp"
+	"github.com/gf/g/net/gtcp"
+	"github.com/gf/g/net/gudp"
+	"github.com/gf/g/os/gcfg"
+	"github.com/gf/g/os/gview"
 )
 
 // Server returns an instance of http server with specified name.

@@ -9,10 +9,11 @@ package gconv
 
 import (
 	"encoding/json"
-	"github.com/gogf/gf/g/encoding/gbinary"
 	"reflect"
 	"strconv"
 	"strings"
+
+	"github.com/gf/g/encoding/gbinary"
 )
 
 // Type assert api for String().

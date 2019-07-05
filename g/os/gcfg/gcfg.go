@@ -1,8 +1,8 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 // Package gcfg provides reading, caching and managing for configuration.
 package gcfg
@@ -13,17 +13,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/g/container/garray"
-	"github.com/gogf/gf/g/container/gmap"
-	"github.com/gogf/gf/g/container/gtype"
-	"github.com/gogf/gf/g/container/gvar"
-	"github.com/gogf/gf/g/encoding/gjson"
-	"github.com/gogf/gf/g/internal/cmdenv"
-	"github.com/gogf/gf/g/os/gfile"
-	"github.com/gogf/gf/g/os/gfsnotify"
-	"github.com/gogf/gf/g/os/glog"
-	"github.com/gogf/gf/g/os/gspath"
-	"github.com/gogf/gf/g/os/gtime"
+	"github.com/gf/g/container/garray"
+	"github.com/gf/g/container/gmap"
+	"github.com/gf/g/container/gtype"
+	"github.com/gf/g/container/gvar"
+	"github.com/gf/g/encoding/gjson"
+	"github.com/gf/g/internal/cmdenv"
+	"github.com/gf/g/os/gfile"
+	"github.com/gf/g/os/gfsnotify"
+	"github.com/gf/g/os/glog"
+	"github.com/gf/g/os/gspath"
+	"github.com/gf/g/os/gtime"
 )
 
 const (

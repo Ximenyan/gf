@@ -8,10 +8,11 @@ package gtime
 
 import (
 	"bytes"
-	"github.com/gogf/gf/g/text/gregex"
-	"github.com/gogf/gf/g/text/gstr"
 	"strconv"
 	"strings"
+
+	"github.com/gf/g/text/gregex"
+	"github.com/gf/g/text/gstr"
 )
 
 var (

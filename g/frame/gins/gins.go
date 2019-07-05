@@ -1,25 +1,26 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 // Package gins provides instances management and core components management.
 package gins
 
 import (
 	"fmt"
-	"github.com/gogf/gf/g/container/gmap"
-	"github.com/gogf/gf/g/database/gdb"
-	"github.com/gogf/gf/g/database/gredis"
-	"github.com/gogf/gf/g/os/gcfg"
-	"github.com/gogf/gf/g/os/gfsnotify"
-	"github.com/gogf/gf/g/os/glog"
-	"github.com/gogf/gf/g/os/gview"
-	"github.com/gogf/gf/g/text/gregex"
-	"github.com/gogf/gf/g/text/gstr"
-	"github.com/gogf/gf/g/util/gconv"
 	"time"
+
+	"github.com/gf/g/container/gmap"
+	"github.com/gf/g/database/gdb"
+	"github.com/gf/g/database/gredis"
+	"github.com/gf/g/os/gcfg"
+	"github.com/gf/g/os/gfsnotify"
+	"github.com/gf/g/os/glog"
+	"github.com/gf/g/os/gview"
+	"github.com/gf/g/text/gregex"
+	"github.com/gf/g/text/gstr"
+	"github.com/gf/g/util/gconv"
 )
 
 const (

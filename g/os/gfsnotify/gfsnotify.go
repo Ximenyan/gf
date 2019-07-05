@@ -1,8 +1,8 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 // Package gfsnotify provides a platform-independent interface for file system notifications.
 //
@@ -12,12 +12,13 @@ package gfsnotify
 import (
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/g/container/glist"
-	"github.com/gogf/gf/g/container/gmap"
-	"github.com/gogf/gf/g/container/gqueue"
-	"github.com/gogf/gf/g/container/gtype"
-	"github.com/gogf/gf/g/os/gcache"
-	"github.com/gogf/gf/third/github.com/fsnotify/fsnotify"
+
+	"github.com/gf/g/container/glist"
+	"github.com/gf/g/container/gmap"
+	"github.com/gf/g/container/gqueue"
+	"github.com/gf/g/container/gtype"
+	"github.com/gf/g/os/gcache"
+	"github.com/gf/third/github.com/fsnotify/fsnotify"
 )
 
 // 监听管理对象

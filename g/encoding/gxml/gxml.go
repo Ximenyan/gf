@@ -1,18 +1,19 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 // Package gxml provides accessing and converting for XML content.
 package gxml
 
 import (
 	"fmt"
-	"github.com/gogf/gf/g/encoding/gcharset"
-	"github.com/gogf/gf/g/text/gregex"
-	"github.com/gogf/gf/third/github.com/clbanning/mxj"
 	"strings"
+
+	"github.com/gf/g/encoding/gcharset"
+	"github.com/gf/g/text/gregex"
+	"github.com/gf/third/github.com/clbanning/mxj"
 )
 
 // 将XML内容解析为map变量

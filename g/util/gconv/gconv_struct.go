@@ -9,10 +9,11 @@ package gconv
 import (
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/g/text/gstr"
-	"github.com/gogf/gf/third/github.com/fatih/structs"
 	"reflect"
 	"strings"
+
+	"github.com/gf/g/text/gstr"
+	"github.com/gf/third/github.com/fatih/structs"
 )
 
 // Struct maps the params key-value pairs to the corresponding struct object's properties.

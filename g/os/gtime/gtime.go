@@ -9,11 +9,12 @@ package gtime
 
 import (
 	"errors"
-	"github.com/gogf/gf/g/text/gregex"
 	"regexp"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/gf/g/text/gregex"
 )
 
 const (

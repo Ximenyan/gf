@@ -13,9 +13,10 @@
 package gtimer
 
 import (
-	"github.com/gogf/gf/g/internal/cmdenv"
 	"math"
 	"time"
+
+	"github.com/gf/g/internal/cmdenv"
 )
 
 const (

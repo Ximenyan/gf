@@ -1,8 +1,8 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/gf.
 
 package ghttp
 
@@ -18,19 +18,19 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gogf/gf/g/container/garray"
-	"github.com/gogf/gf/g/container/gmap"
-	"github.com/gogf/gf/g/container/gtype"
-	"github.com/gogf/gf/g/os/gcache"
-	"github.com/gogf/gf/g/os/genv"
-	"github.com/gogf/gf/g/os/gfile"
-	"github.com/gogf/gf/g/os/glog"
-	"github.com/gogf/gf/g/os/gproc"
-	"github.com/gogf/gf/g/os/gtimer"
-	"github.com/gogf/gf/g/text/gregex"
-	"github.com/gogf/gf/g/util/gconv"
-	"github.com/gogf/gf/third/github.com/gorilla/websocket"
-	"github.com/gogf/gf/third/github.com/olekukonko/tablewriter"
+	"github.com/gf/g/container/garray"
+	"github.com/gf/g/container/gmap"
+	"github.com/gf/g/container/gtype"
+	"github.com/gf/g/os/gcache"
+	"github.com/gf/g/os/genv"
+	"github.com/gf/g/os/gfile"
+	"github.com/gf/g/os/glog"
+	"github.com/gf/g/os/gproc"
+	"github.com/gf/g/os/gtimer"
+	"github.com/gf/g/text/gregex"
+	"github.com/gf/g/util/gconv"
+	"github.com/gf/third/github.com/gorilla/websocket"
+	"github.com/gf/third/github.com/olekukonko/tablewriter"
 )
 
 type (
