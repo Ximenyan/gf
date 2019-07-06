@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/gogf/gf/third/gopkg.in/yaml.v2"
+	"github.com/gf/third/gopkg.in/yaml.v2"
 )
 
 // Marshals the object into JSON then converts JSON to YAML and returns the
