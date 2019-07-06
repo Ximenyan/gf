@@ -3,19 +3,19 @@
 // license that can be found in the LICENSE file.
 
 // Package unicode provides Unicode encodings such as UTF-16.
-package unicode // import "github.com/gogf/gf/third/golang.org/x/text/encoding/unicode"
+package unicode
 
 import (
 	"errors"
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/gogf/gf/third/golang.org/x/text/encoding"
-	"github.com/gogf/gf/third/golang.org/x/text/encoding/internal"
-	"github.com/gogf/gf/third/golang.org/x/text/encoding/internal/identifier"
-	"github.com/gogf/gf/third/golang.org/x/text/internal/utf8internal"
-	"github.com/gogf/gf/third/golang.org/x/text/runes"
-	"github.com/gogf/gf/third/golang.org/x/text/transform"
+	"golang.org/x/text/encoding"
+	"golang.org/x/text/encoding/internal"
+	"golang.org/x/text/encoding/internal/identifier"
+	"golang.org/x/text/internal/utf8internal"
+	"golang.org/x/text/runes"
+	"golang.org/x/text/transform"
 )
 
 // TODO: I think the Transformers really should return errors on unmatched

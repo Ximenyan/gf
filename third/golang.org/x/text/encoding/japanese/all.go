@@ -5,7 +5,7 @@
 package japanese
 
 import (
-	"github.com/gogf/gf/third/golang.org/x/text/encoding"
+	"golang.org/x/text/encoding"
 )
 
 // All is a list of all defined encodings in this package.

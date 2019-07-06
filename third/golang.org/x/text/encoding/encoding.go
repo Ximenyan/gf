@@ -8,7 +8,7 @@
 // Encoding implementations are provided in other packages, such as
 // github.com/gf/third/golang.org/x/text/encoding/charmap and
 // github.com/gf/third/golang.org/x/text/encoding/japanese.
-package encoding // import "github.com/gf/third/golang.org/x/text/encoding"
+package encoding
 
 import (
 	"errors"
